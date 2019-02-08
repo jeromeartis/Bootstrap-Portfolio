@@ -1,0 +1,172 @@
+
+
+body {
+background-image: url("./images/brooklyn_bridge.jpg")
+}
+footer {
+ position: absolute;
+ left: 0;
+ bottom:0;
+ margin-bottom: -190px;
+ width: 100%;
+ height: 80px;
+ background-color: grey;
+ text-align: center;
+ border-top: 5px solid #4aaaa5;
+}
+
+.header-label {
+margin-left: 310px;
+background-color:#4aaaa5;
+position: relative;
+
+}
+.navbar {
+  background-color: grey;
+  height: 90px;
+  margin-top:-20px
+}
+
+@media screen and (max-width: 980px){
+  button {
+    margin-top: -20px;
+  }
+  footer {
+   position: absolute;
+   left: 0;
+   bottom:0;
+   margin-bottom: -230px;
+   width: 100%;
+   height: 80px;
+   background-color: grey;
+   text-align: center;
+   border-top: 5px solid #4aaaa5;
+  }
+  .picture-body {
+    width: 100%;
+  }
+
+  .card-image{
+
+  height: auto;
+  width: 100%;
+  bottom:0;
+  left:0;
+  text-align: right;
+  }
+  .header-label {
+    display:none;
+  }
+  .portfolio-body{
+      height: 550px;
+  }
+
+  .body-text1 {
+    float:left;
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: -200px;
+  }
+  .body-text2 {
+    margin-right: 20px;
+    font-size: 12px;
+    padding-top: 30px;
+  }
+
+  .about-body{
+    width:200px;
+    height: 100px;
+  }
+  /* .footer {
+    position: relative;
+    width: 100px;
+  } */
+  /* .card-body{
+  //height: 500px;
+  //width: 100%;
+  } */
+  .higgins {
+    position: absolute;
+    float:left;
+    margin-top: 20px;
+
+  }
+
+  .family {
+    postion: absolute;
+    float: left;
+    margin-top: 30px;
+  }
+  .digital {
+
+  }
+  .ny {
+
+  }
+
+}
+
+
+@media screen and (max-width: 768px){
+  .body-text2 {
+
+  }
+  .about-body {
+    /* height:300px;
+    width: 100%; */
+  }
+  .navbar {
+    background-color: grey;
+    height: 90px;
+    margin-top:-50px
+  }
+  .body-text1 {
+    float:left;
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: -200px;
+  }
+  .body-text2 {
+    margin-right: 20px;
+    font-size: 12px;
+    padding-top: 30px;
+  }
+  .higgins {
+    position: absolute;
+    float:left;
+    margin-top: 20px;
+
+  }
+
+  .family {
+    postion: absolute;
+    float: left;
+    margin-top: 30px;
+  }
+  .digital {
+
+  }
+  .ny {
+
+  }
+}
+
+@media screen and (max-width: 640px){
+
+  .body-text{
+    font-size: 14px;
+    text-align: right;
+    width: 100px;
+    height:200px;
+    overflow: auto;
+  }
+  textarea {
+    height: 180px;
+    width:100%;
+  }
+  .navbar {
+    background-color: grey;
+    height: 90px;
+    margin-top:-50px
+  }
+}
